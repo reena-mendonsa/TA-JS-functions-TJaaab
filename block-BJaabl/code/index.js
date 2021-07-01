@@ -3,10 +3,11 @@
  and alert `Hello [name]!`.
 */
 function sayHello(name){
-  alert(`Hello ${name}`);
+ return alert(`Hello ${name}`);
 }
 
 sayHello("Reena");
+
 /*
 2. Create a function named `getFullName` that accepts two parameter
  `firstName` and `lastName` and returns
